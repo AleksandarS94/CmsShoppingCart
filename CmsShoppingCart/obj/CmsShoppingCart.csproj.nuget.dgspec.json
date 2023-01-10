@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\aleks\\source\\repos\\CmsShoppingCart\\CmsShoppingCart\\CmsShoppingCart.csproj": {}
+    "C:\\Projects\\CmsShoppingCart\\CmsShoppingCart\\CmsShoppingCart.csproj": {}
   },
   "projects": {
-    "C:\\Users\\aleks\\source\\repos\\CmsShoppingCart\\CmsShoppingCart\\CmsShoppingCart.csproj": {
+    "C:\\Projects\\CmsShoppingCart\\CmsShoppingCart\\CmsShoppingCart.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aleks\\source\\repos\\CmsShoppingCart\\CmsShoppingCart\\CmsShoppingCart.csproj",
+        "projectUniqueName": "C:\\Projects\\CmsShoppingCart\\CmsShoppingCart\\CmsShoppingCart.csproj",
         "projectName": "CmsShoppingCart",
-        "projectPath": "C:\\Users\\aleks\\source\\repos\\CmsShoppingCart\\CmsShoppingCart\\CmsShoppingCart.csproj",
+        "projectPath": "C:\\Projects\\CmsShoppingCart\\CmsShoppingCart\\CmsShoppingCart.csproj",
         "packagesPath": "C:\\Users\\aleks\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aleks\\source\\repos\\CmsShoppingCart\\CmsShoppingCart\\obj\\",
+        "outputPath": "C:\\Projects\\CmsShoppingCart\\CmsShoppingCart\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\aleks\\AppData\\Roaming\\NuGet\\NuGet.Config",
