@@ -16,6 +16,8 @@ namespace CmsShoppingCart.Controllers
             this.context = context;
         }
          
+
+        //GET /cart
         public IActionResult Index()
         {
             List<CartItem> cart = HttpContext.Session.GetJson<List<CartItem>>("Cart") ?? new List<CartItem>();
