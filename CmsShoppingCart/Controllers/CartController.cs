@@ -1,6 +1,5 @@
 ﻿using CmsShoppingCart.Infrastructure;
 using CmsShoppingCart.Models;
-using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 using System.Linq;
