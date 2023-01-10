@@ -103,6 +103,7 @@ namespace CmsShoppingCart.Controllers
         {
 
             await signInManager.SignOutAsync();
+            HttpContext.Session.Remove("Cart");
 
             return Redirect("/");
         } 
