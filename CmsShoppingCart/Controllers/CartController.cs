@@ -30,7 +30,6 @@ namespace CmsShoppingCart.Controllers
             return View(cartVM);
         }
         
-
         //GET /cart/add/5
         public async Task<IActionResult> Add(int id)
         {
