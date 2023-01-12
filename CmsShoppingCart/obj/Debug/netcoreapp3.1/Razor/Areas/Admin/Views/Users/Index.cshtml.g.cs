@@ -21,13 +21,13 @@ using CmsShoppingCart;
 #nullable disable
 #nullable restore
 #line 2 "C:\Projects\CmsShoppingCart\CmsShoppingCart\Areas\Admin\Views\_ViewImports.cshtml"
-using CmsShoppingCart.Models;
+using CmsShoppingCart.DAL.Models;
 
 #line default
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"21d6e1fe8d8429d3d55632c5b4ada04a522e7df4", @"/Areas/Admin/Views/Users/Index.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"bafcca044c23f3ae64fd57297ff83c598c51caa3", @"/Areas/Admin/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"a89780615246871d1b292751dce51a9f7dacbed5", @"/Areas/Admin/Views/_ViewImports.cshtml")]
     public class Areas_Admin_Views_Users_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<IEnumerable<AppUser>>
     {
         #pragma warning disable 1998

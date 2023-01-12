@@ -1,5 +1,5 @@
-﻿using CmsShoppingCart.Infrastructure;
-using CmsShoppingCart.Models;
+﻿using CmsShoppingCart.DAL.Infrastructure;
+using CmsShoppingCart.DAL.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 using System.Linq;

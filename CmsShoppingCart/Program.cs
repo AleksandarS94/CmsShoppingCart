@@ -1,4 +1,4 @@
-using CmsShoppingCart.Models;
+using CmsShoppingCart.DAL.Models;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;

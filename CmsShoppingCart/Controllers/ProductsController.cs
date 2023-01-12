@@ -1,10 +1,9 @@
-﻿using CmsShoppingCart.Infrastructure;
-using CmsShoppingCart.Models;
+﻿using CmsShoppingCart.DAL.Infrastructure;
+using CmsShoppingCart.DAL.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System;
-using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 

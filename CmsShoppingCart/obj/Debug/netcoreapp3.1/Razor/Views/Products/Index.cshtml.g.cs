@@ -21,13 +21,13 @@ using CmsShoppingCart;
 #nullable disable
 #nullable restore
 #line 2 "C:\Projects\CmsShoppingCart\CmsShoppingCart\Views\_ViewImports.cshtml"
-using CmsShoppingCart.Models;
+using CmsShoppingCart.DAL.Models;
 
 #line default
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"16870234e49690901bfb6c5edeff8aab0ac38f36", @"/Views/Products/Index.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"3db25384b462973999126e613f027beb7944cfd4", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"169fe30d897eb0e0112307ae3554916e6598f690", @"/Views/_ViewImports.cshtml")]
     public class Views_Products_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<IEnumerable<Product>>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("src", new global::Microsoft.AspNetCore.Html.HtmlString("~/images/ajax-loader.gif"), global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -36,7 +36,6 @@ using CmsShoppingCart.Models;
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_3 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("asp-controller", "Cart", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_4 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("asp-action", "Add", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_5 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("class", new global::Microsoft.AspNetCore.Html.HtmlString("btn btn-primary addToCart"), global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
-        private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_6 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("page-target", "/products", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
         #line hidden
         #pragma warning disable 0649
         private global::Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext __tagHelperExecutionContext;
@@ -59,7 +58,6 @@ using CmsShoppingCart.Models;
         }
         private global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper;
         private global::Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper __Microsoft_AspNetCore_Mvc_TagHelpers_AnchorTagHelper;
-        private global::CmsShoppingCart.Infrastructure.PaginationTagHelper __CmsShoppingCart_Infrastructure_PaginationTagHelper;
         #pragma warning disable 1998
         public async override global::System.Threading.Tasks.Task ExecuteAsync()
         {
@@ -82,7 +80,7 @@ using CmsShoppingCart.Models;
 #line hidden
 #nullable disable
             WriteLiteral("        <div class=\"col-4\">\r\n\r\n            <div class=\"ajaxbg d-none\">\r\n                ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "16870234e49690901bfb6c5edeff8aab0ac38f366318", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "16870234e49690901bfb6c5edeff8aab0ac38f365887", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -96,7 +94,7 @@ using CmsShoppingCart.Models;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                <p class=\"lead alert alert-success text-center d-none\">\r\n                    The product has been added!\r\n                </p>\r\n            </div>\r\n            ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "16870234e49690901bfb6c5edeff8aab0ac38f367534", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "16870234e49690901bfb6c5edeff8aab0ac38f367103", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -145,7 +143,7 @@ AddHtmlAttributeValue("", 520, item.Image, 520, 11, false);
 #line hidden
 #nullable disable
             WriteLiteral("\r\n            </p>\r\n\r\n            <p>\r\n                ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "16870234e49690901bfb6c5edeff8aab0ac38f3610049", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "16870234e49690901bfb6c5edeff8aab0ac38f369618", async() => {
                 WriteLiteral("Add to card");
             }
             );
@@ -205,46 +203,36 @@ AddHtmlAttributeValue("", 520, item.Image, 520, 11, false);
 #line default
 #line hidden
 #nullable disable
-            WriteLiteral("        <div class=\"d-flex w-100 justify-content-center\">\r\n            ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("pagination", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "16870234e49690901bfb6c5edeff8aab0ac38f3613612", async() => {
-            }
-            );
-            __CmsShoppingCart_Infrastructure_PaginationTagHelper = CreateTagHelper<global::CmsShoppingCart.Infrastructure.PaginationTagHelper>();
-            __tagHelperExecutionContext.Add(__CmsShoppingCart_Infrastructure_PaginationTagHelper);
+            WriteLiteral("        <div class=\"d-flex w-100 justify-content-center\">\r\n            <pagination");
+            BeginWriteAttribute("page-count", " page-count=\"", 1103, "\"", 1135, 1);
 #nullable restore
 #line 44 "C:\Projects\CmsShoppingCart\CmsShoppingCart\Views\Products\Index.cshtml"
-__CmsShoppingCart_Infrastructure_PaginationTagHelper.PageCount = ViewBag.TotalPages;
+WriteAttributeValue("", 1116, ViewBag.TotalPages, 1116, 19, false);
 
 #line default
 #line hidden
 #nullable disable
-            __tagHelperExecutionContext.AddTagHelperAttribute("page-count", __CmsShoppingCart_Infrastructure_PaginationTagHelper.PageCount, global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
-            __CmsShoppingCart_Infrastructure_PaginationTagHelper.PageTarget = (string)__tagHelperAttribute_6.Value;
-            __tagHelperExecutionContext.AddTagHelperAttribute(__tagHelperAttribute_6);
+            EndWriteAttribute();
+            WriteLiteral(" page-target=\"/products\"");
+            BeginWriteAttribute("page-number", " page-number=\"", 1160, "\"", 1193, 1);
 #nullable restore
 #line 44 "C:\Projects\CmsShoppingCart\CmsShoppingCart\Views\Products\Index.cshtml"
-__CmsShoppingCart_Infrastructure_PaginationTagHelper.PageNumber = ViewBag.PageNumber;
+WriteAttributeValue("", 1174, ViewBag.PageNumber, 1174, 19, false);
 
 #line default
 #line hidden
 #nullable disable
-            __tagHelperExecutionContext.AddTagHelperAttribute("page-number", __CmsShoppingCart_Infrastructure_PaginationTagHelper.PageNumber, global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
+            EndWriteAttribute();
+            BeginWriteAttribute("page-range", " page-range=\"", 1194, "\"", 1225, 1);
 #nullable restore
 #line 44 "C:\Projects\CmsShoppingCart\CmsShoppingCart\Views\Products\Index.cshtml"
-__CmsShoppingCart_Infrastructure_PaginationTagHelper.PageRange = ViewBag.PageRange;
+WriteAttributeValue("", 1207, ViewBag.PageRange, 1207, 18, false);
 
 #line default
 #line hidden
 #nullable disable
-            __tagHelperExecutionContext.AddTagHelperAttribute("page-range", __CmsShoppingCart_Infrastructure_PaginationTagHelper.PageRange, global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
-            await __tagHelperRunner.RunAsync(__tagHelperExecutionContext);
-            if (!__tagHelperExecutionContext.Output.IsContentModified)
-            {
-                await __tagHelperExecutionContext.SetOutputContentAsync();
-            }
-            Write(__tagHelperExecutionContext.Output);
-            __tagHelperExecutionContext = __tagHelperScopeManager.End();
-            WriteLiteral("\r\n        </div>\r\n");
+            EndWriteAttribute();
+            WriteLiteral("></pagination>\r\n        </div>\r\n");
 #nullable restore
 #line 46 "C:\Projects\CmsShoppingCart\CmsShoppingCart\Views\Products\Index.cshtml"
     }

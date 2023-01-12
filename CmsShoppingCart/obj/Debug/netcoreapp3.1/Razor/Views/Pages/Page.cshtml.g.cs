@@ -21,13 +21,13 @@ using CmsShoppingCart;
 #nullable disable
 #nullable restore
 #line 2 "C:\Projects\CmsShoppingCart\CmsShoppingCart\Views\_ViewImports.cshtml"
-using CmsShoppingCart.Models;
+using CmsShoppingCart.DAL.Models;
 
 #line default
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"da8529ea96f7b6eb3ae768a6a0f85fe660dc1a2d", @"/Views/Pages/Page.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"3db25384b462973999126e613f027beb7944cfd4", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"169fe30d897eb0e0112307ae3554916e6598f690", @"/Views/_ViewImports.cshtml")]
     public class Views_Pages_Page : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<Page>
     {
         #pragma warning disable 1998
