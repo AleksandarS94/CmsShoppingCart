@@ -1,0 +1,15 @@
+C:\Projects\CmsShoppingCart\CmsShoppingCart.DAL\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Projects\CmsShoppingCart\CmsShoppingCart.DAL\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Projects\CmsShoppingCart\CmsShoppingCart.DAL\bin\Debug\netcoreapp3.1\CmsShoppingCart.DAL.deps.json
+C:\Projects\CmsShoppingCart\CmsShoppingCart.DAL\bin\Debug\netcoreapp3.1\CmsShoppingCart.DAL.runtimeconfig.json
+C:\Projects\CmsShoppingCart\CmsShoppingCart.DAL\bin\Debug\netcoreapp3.1\CmsShoppingCart.DAL.runtimeconfig.dev.json
+C:\Projects\CmsShoppingCart\CmsShoppingCart.DAL\bin\Debug\netcoreapp3.1\CmsShoppingCart.DAL.dll
+C:\Projects\CmsShoppingCart\CmsShoppingCart.DAL\bin\Debug\netcoreapp3.1\CmsShoppingCart.DAL.pdb
+C:\Projects\CmsShoppingCart\CmsShoppingCart.DAL\obj\Debug\netcoreapp3.1\CmsShoppingCart.DAL.csproj.AssemblyReference.cache
+C:\Projects\CmsShoppingCart\CmsShoppingCart.DAL\obj\Debug\netcoreapp3.1\CmsShoppingCart.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\CmsShoppingCart\CmsShoppingCart.DAL\obj\Debug\netcoreapp3.1\CmsShoppingCart.DAL.AssemblyInfoInputs.cache
+C:\Projects\CmsShoppingCart\CmsShoppingCart.DAL\obj\Debug\netcoreapp3.1\CmsShoppingCart.DAL.AssemblyInfo.cs
+C:\Projects\CmsShoppingCart\CmsShoppingCart.DAL\obj\Debug\netcoreapp3.1\CmsShoppingCart.DAL.csproj.CoreCompileInputs.cache
+C:\Projects\CmsShoppingCart\CmsShoppingCart.DAL\obj\Debug\netcoreapp3.1\CmsShoppingCart.DAL.dll
+C:\Projects\CmsShoppingCart\CmsShoppingCart.DAL\obj\Debug\netcoreapp3.1\CmsShoppingCart.DAL.pdb
+C:\Projects\CmsShoppingCart\CmsShoppingCart.DAL\obj\Debug\netcoreapp3.1\CmsShoppingCart.DAL.genruntimeconfig.cache
